@@ -14,7 +14,7 @@ async function main() {
     {
       type: 'input',
       name: 'textColor',
-      message: 'Enter the text color (keyword or hex):'
+      message: 'Enter the text color (Color or hex):'
     },
     {
       type: 'list',
@@ -25,7 +25,7 @@ async function main() {
     {
       type: 'input',
       name: 'shapeColor',
-      message: 'Enter the shape color (keyword or hex):'
+      message: 'Enter the shape color (Color or hex):'
     }
   ]);
 
