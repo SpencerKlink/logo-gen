@@ -70,9 +70,14 @@ async function main() {
   ctx.textAlign = 'center';
   ctx.fillText(text, 150, 125);  
 
+  // Generate a new filename based on current timestamp
+  const timestamp = Date.now();
+  const filename = `logo_${timestamp}.svg`;
+
+  // Save the SVG content to the new file
   const buffer = canvas.toBuffer('image/svg+xml');
-  fs.writeFileSync('logo.svg', buffer);
-  console.log('Generated logo.svg');
+  fs.writeFileSync(filename, buffer);
+  console.log(`Generated ${filename}`);
 }
 
 main();
