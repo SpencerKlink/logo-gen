@@ -30,4 +30,7 @@ Contributions are welcome! Please feel free to submit bug reports, feature reque
 # GitHub Link
 https://github.com/SpencerKlink/logo-gen
 
+# GOOGLE DRIVE VIDEO LINK
+https://drive.google.com/file/d/1mFGamlkDm7ddkt5It1pHS4iIt14-88yb/view?usp=sharing
+
 
